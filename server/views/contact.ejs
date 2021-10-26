@@ -1,0 +1,27 @@
+<%-include partials/header.ejs%>
+    
+    <%-include partials/main_nav.ejs%>
+
+    <form action="mailto:devguptacompanies@gmail.com" method="post">
+      <fieldset><legend>Your Preferences:</legend>
+        <p><label>First Name:	</label>
+        <input name="txtFirstName" size="25" tabindex="1" type="text"></p>
+          <p><label>Last Name:	</label>
+        <input name="txtLastName" size="25" tabindex="3" type="text"></p>
+          <p><label>Phone:	</label>
+        <input type = "tel" size="15" tabindex="5" placeholder = "(###) ###-####" pattern = "\(\d{3}\) +\d{3}-\d{4}"
+         required /></p>
+          <p><label>Email:	</label>
+        <input name="txtEmail" size="25" tabindex="7" type="text" value="name@domain.com"></p>
+          
+          
+          
+          
+        <textarea cols="50" name="txtComments" rows="3" tabindex="17">please enter your suggestions or any other comments.....</textarea><p>
+        <label id="label"><input name="btnSubmit" tabindex="19" type="submit" value="Complete Form"></label>
+      
+        <label class="label"><input name="btnReset" tabindex="21" type="reset" value="Start Again"></label><br>
+        </fieldset>
+        </form><br>
+        <center><em>Thank you! </em></center></h4><br><br>
+    

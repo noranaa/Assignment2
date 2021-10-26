@@ -1,0 +1,27 @@
+<%-include ../partials/header.ejs%>
+
+  <%-include ../partials/main_nav.ejs%>
+    <div class="container">
+      <div class="row">
+        <div class="offset-nd-1 col-nd-10">
+          <h1>
+            <%=title%>
+          </h1>
+          <form class="form" method="post">
+            <div class="form-group">
+              <label for="nameTextField">Add a name</label> <input type="text" class="form-control" id="nameTextField"
+                placeholder="Enter Your Name" name="Name" value="Name" required>
+            </div>
+            <div class="form-group">
+              <label for="numberTextField">Add phone number</label> <input type="text" class="form-control"
+                id="numberTextField" placeholder="Enter Your phone number" name="Number" value="Number" required>
+            </div>
+            <div class="form-group">
+              <label for="emailTextField">Enter your email</label> <input type="text" class="form-control"
+                id="emailTextField" placeholder="Enter Your Email" name="Email" value="Email" required>
+            </div><button class="btn btn-primary" type="submit">submit</button> <a href="/customer_list"
+              class="btn btn warning">Cancel</a>
+          </form>
+        </div>
+      </div>
+    </div>
